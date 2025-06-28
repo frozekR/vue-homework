@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div> {{ currentDate }} </div>
+  <div> {{ currentDate.toDateString() }} </div>
 </template>
 
 <style scoped></style>
